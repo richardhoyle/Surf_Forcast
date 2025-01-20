@@ -1,0 +1,21 @@
+.container {
+      text-align: center;
+      font-family: sans-serif;
+    }
+    
+    .results {
+      margin-top: 20px;
+    }
+    
+    .data-tiles {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 10px;
+      margin-top: 20px;
+    }
+    
+    .tile {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: center;
+    }
